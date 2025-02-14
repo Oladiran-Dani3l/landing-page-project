@@ -118,3 +118,80 @@ h1 {
     top: -32%;
     left: 54%;
 }
+
+.about-section {
+    padding-top: 325px;
+}
+
+h2 {
+    font-size: 56px;
+}
+
+.about-cards {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+h3 {
+    padding: 10px 0;
+}
+
+.work {
+    height: 250px;
+    background-color: var(--violet);
+    color: #fff;
+    padding: 80px;
+}
+
+.work h2 {
+    font-size: 36px;
+    width: 100%;
+    max-width: 340px;
+}
+
+.about-pattern {
+    top: 0;
+    right: 0%;
+}
+
+.footer {
+    padding: 70px var(--pd-x);
+    background-color: var(--light-grey);
+    color: var(--light-violet);
+}
+
+.footer-nav-section {
+    padding-bottom: 36px;
+    border-bottom: 1px solid var(--light-violet);
+}
+
+.footer-pattern {
+    top: 0%;
+    left: 0%;
+}
+
+.footer-guide {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 154px;
+}
+
+.footer-guide p {
+    margin-top: 0;
+}
+
+.footer-link {
+    margin-bottom: 22px;
+    list-style: none;
+}
+
+.footer-link a {
+    color: var(--dark-violet);
+}
+
+.footer-link a:hover {
+    text-decoration: underline;
+}
