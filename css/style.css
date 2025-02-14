@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     text-decoration: none;
 }
 
@@ -69,7 +69,7 @@ body {
 }
 
 p {
-    margin: 24px 0;
+    padding: 24px 0;
 }
 
 .block-line {
@@ -155,6 +155,40 @@ h3 {
     top: 0;
     right: 0%;
 }
+
+/* Testimonial Section */
+
+.testimonial {
+    margin-top: 40px;
+    background-color: var(--violet);
+    color: #fff;
+}
+
+.testimonial-pattern {
+    left: -22%;
+}
+
+.testimonial-intro {
+    text-align: center;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 40px;
+}
+
+.client-card {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--dark-violet);
+}
+
+/* Footer */
 
 .footer {
     padding: 70px var(--pd-x);
