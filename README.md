@@ -1,3 +1,11 @@
+## Week 4 Task 4
+Using the lessons learnt on design principles and proper css styling, add styling to  your task 3 project.
+
+
+
+
+
+
 ## Week 3 Task 3
 Apply the concepts of best HTML 5 practices and project structure to build a landing page of your choice.
 
