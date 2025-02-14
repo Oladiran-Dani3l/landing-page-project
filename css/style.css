@@ -175,7 +175,7 @@ h3 {
 .clients {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 20px;
     padding-bottom: 40px;
 }
 
