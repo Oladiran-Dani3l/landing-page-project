@@ -1,61 +1,120 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* outline: 1px solid red; */
+    text-decoration: none;
 }
 
 :root {
     /* COLORS */
     --violet: hsl(256, 26%, 20%);
     --light-blue: hsl(216, 30%, 68%);
-
+    
     --dark-violet: hsl(270, 9%, 17%);
     --light-violet: hsl(273, 4%, 51%);
-    --light-gray: hsl(0, 0%, 98%);
-
-    /* FONT SIZE */
-    --body-font: 16px;
+    --light-grey: hsl(0, 0%, 98%);
 
     /* PADDING */
-    --pd-side: 174px;
+    --pd-x: 120px;
+
+    /* FONT SIZE */
+    --font-size: 16px;
 }
 
+body {
+    overflow-x: hidden;
+}
 
-/* GROUP STYLING */
 .container {
-    padding: 0 var(--pd-side);
-    font-size: var(--body-font);
+    padding: 0 var(--pd-x);
+    font-size: var(--font-size);
 }
 
-.nav-section {
+.nav-section, .hero-section, .work {
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
+}
+
+.header-nav-section {
+    background-color: #fff;
+    padding-top: 20px;
     padding-bottom: 20px;
-    /* height: 80px; */
+    align-items: center;
 }
 
 .link {
-    text-decoration: none;
     color: var(--light-violet);
 }
 
-.btn {
-    width: 156px;
+.link:not(:last-child) {
+    padding-right: 28px;
+}
+
+.button {
+    width: 146px;
     height: 40px;
-    border: 1px solid var(--dark-violet);
+    background-color: transparent;
+    padding: 15px 10px;
 }
 
-/*  */
-
-
-.child-one:nth-child(1) {
-    margin-right: 549px;
+.primary-button {
+    border: 2px solid var(--dark-violet);
+    color: var(--dark-violet);
 }
 
-.nav {
-    width: 285px;
-    padding-top: 10px;
-    align-items: center;
+.secondary-button {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+p {
+    margin: 24px 0;
+}
+
+.block-line {
+    height: 1px;
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+.block-line-hero {
+    background-color: #fff;
+}
+.block-line-main {
+    background-color: var(--light-violet);
+}
+
+h1 {
+    font-size: 72px;
+    max-width: 480px;
+    width: 100%;
+}
+
+.hero-section {
+    background-color: var(--violet);
+    color: #fff;
+    padding-top: 100px;
+    height: 600px;
+}
+
+.hero-images, .work, .footer {
+    position: relative;
+}
+
+.bg-pattern {
+    position: absolute;
+    z-index: 2;
+    width: fit-content;
+    height: fit-content;
+}
+
+.pattern-l {
+    top: 64%;
+    left: -112%;
+}
+
+.pattern-r {
+    top: -32%;
+    left: 54%;
 }
